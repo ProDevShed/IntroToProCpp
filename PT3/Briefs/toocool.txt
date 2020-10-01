@@ -1,0 +1,18 @@
+Brief
+Create a console application that when run on start-up will display an info message from the company when users login, in the following format:
+
+	TooCool Systems Ltd 
+
+	Please read and agree to the T&Cs before using the awesome IT services at TooCool.
+	T&Cs are currently version 2.3, ensure you have viewed the latest copy as changes come into effect on publishing.
+
+	CEO
+	Garry Goodspeed
+
+Some values in this memo will change periodically so ensure that the following values
+are parameterised to allow quicker updates:
+
+	Company name	-	This memo system may be used in subsidiary companies and branches.
+	T&Cs version	-	Currently 2.3, however, these are reviewed and updated regularly.
+	Position title	-	Depending on the subsidiary the tile may change.
+	Sender		-	Depending on the subsidiary the tile may change.
