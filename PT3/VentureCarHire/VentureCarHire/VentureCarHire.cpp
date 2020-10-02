@@ -12,7 +12,11 @@ int main()
     std::string alert = "**ALERT**\n";
     std::string lineOfStars = "**********************************************\n";
     std::string line1 = "Lease of the " + carName +" is reserved for member only.\n";
-    std::string line2 = "For non - members this requires a completed non - member lease override form from supervisor " + supervisor + " and " + value + " deposit.\n";
+    std::string line2 = "For non-members this requires a completed non-member lease override form from supervisor " + supervisor + " and " + value + " deposit.\n";
     std::string line3 = "Failure to follow these steps will result in disciplinary procedures and possible termination.\n";
 
+
+    // Print lines of text
+
+    std::cout << alert << lineOfStars << line1 << line2 << line3 << lineOfStars;
 }
