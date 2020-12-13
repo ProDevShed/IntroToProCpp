@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d5487f6f-a626-4506-8abc-40365c53ea8e}</ProjectGuid>
-    <RootNamespace>PT4demo</RootNamespace>
+    <ProjectGuid>{b9a2bb9e-0d94-40e7-85b4-6dfd5f064b44}</ProjectGuid>
+    <RootNamespace>PT4Demo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PT4-demo.cpp" />
+    <ClCompile Include="PT4-Demo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
