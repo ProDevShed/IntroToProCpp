@@ -26,6 +26,13 @@ int main()
     {
         std::cout << "System error: Date calculation misread – only year calculated: 2045\n\n";
     }
+    // Change req 2
+    else if (userCode.compare("Valerian-Sky-Ripper-Alpha") == 0)
+    {
+        std::cout << "Project Valerian Sky-ripper Alpha" << "\n";
+        std::cout << "In atmos sub-light transporter" << "\n\n";
+        std::cout << "70°13'32.4\"N 20°40'15.5\"E" << "\n";
+    }
     else
     {
         std::cout << "Input not recognised...\n\n";
