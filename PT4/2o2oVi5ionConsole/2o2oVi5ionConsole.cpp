@@ -38,4 +38,8 @@ int main()
         std::cout << "Input not recognised...\n\n";
     }
 
+    //  Cahnge req 3
+    std::cout << "Press enter to continue";
+    std::cin;
+
 }
